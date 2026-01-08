@@ -10,14 +10,14 @@ import {
   Share2,
   Camera,
 } from "lucide-react";
-import foto1 from "/public/img/foto1.jpeg";
-import foto2 from "/public/img/foto2.jpeg";
-import foto3 from "/public/img/foto3.jpeg";
-import foto4 from "/public/img/foto4.jpeg";
-import foto5 from "/public/img/foto5.jpeg";
-import foto6 from "/public/img/foto6.jpeg";
-import foto7 from "/public/img/foto7.jpeg";
-import videoBoda from "/public/img/VideoBoda.mp4";
+import foto1 from "/public/foto1.jpeg";
+import foto2 from "/public/foto2.jpeg";
+import foto3 from "/public/foto3.jpeg";
+import foto4 from "/public/foto4.jpeg";
+import foto5 from "/public/foto5.jpeg";
+import foto6 from "/public/foto6.jpeg";
+import foto7 from "/public/foto7.jpeg";
+import videoBoda from "/public/VideoBoda.mp4";
 
 const VintageWeddingInvite = () => {
   // Estado para la cuenta regresiva
