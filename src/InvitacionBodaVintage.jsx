@@ -207,7 +207,7 @@ const VintageWeddingInvite = () => {
               <MapPin className="w-8 h-8 text-[#8c7b64]" />
             </div>
             <h3 className="font-playfair text-3xl text-[#5e503f] mb-2">
-              Iglesia
+              Templo
             </h3>
             <p className="font-body text-lg text-gray-600 mb-6">
               {couple.locationName}
@@ -222,7 +222,7 @@ const VintageWeddingInvite = () => {
               rel="noreferrer"
               className="inline-block px-8 py-3 bg-[#5e503f] text-[#f7f5f0] font-body text-sm tracking-widest uppercase hover:bg-[#4a3f32] transition-colors shadow-md"
             >
-              Ver Mapa
+              Ubicación
             </a>
           </div>
         </div>
