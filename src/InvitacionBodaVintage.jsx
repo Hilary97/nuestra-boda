@@ -207,7 +207,7 @@ const VintageWeddingInvite = () => {
               <MapPin className="w-8 h-8 text-[#8c7b64]" />
             </div>
             <h3 className="font-playfair text-3xl text-[#5e503f] mb-2">
-              Recepción
+              Iglesia
             </h3>
             <p className="font-body text-lg text-gray-600 mb-6">
               {couple.locationName}
