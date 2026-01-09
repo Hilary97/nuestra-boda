@@ -10,14 +10,6 @@ import {
   Share2,
   Camera,
 } from "lucide-react";
-import foto1 from "/public/foto1.jpeg";
-import foto2 from "/public/foto2.jpeg";
-import foto3 from "/public/foto3.jpeg";
-import foto4 from "/public/foto4.jpeg";
-import foto5 from "/public/foto5.jpeg";
-import foto6 from "/public/foto6.jpeg";
-import foto7 from "/public/foto7.jpeg";
-import videoBoda from "/public/VideoBoda.mp4";
 
 const VintageWeddingInvite = () => {
   // Estado para la cuenta regresiva
@@ -60,7 +52,14 @@ const VintageWeddingInvite = () => {
     mapUrl: "https://maps.app.goo.gl/7XZwLxcfZP8mGJze6?g_st=i",
   };
 
-  const galleryImages = [foto1, foto2, foto3, foto4, foto5, foto6];
+  const galleryImages = [
+    "/foto1.jpeg",
+    "/foto2.jpeg",
+    "/Foto3.jpeg",
+    "/foto4.jpeg",
+    "/foto5.jpeg",
+    "/foto6.jpeg",
+  ];
 
   const openModal = (img) => {
     setSelectedImage(img);
@@ -110,7 +109,7 @@ const VintageWeddingInvite = () => {
       <header className="relative h-screen flex flex-col justify-center items-center text-center px-4 paper-texture">
         <div className="absolute inset-0 z-0">
           <img
-            src={foto7}
+            src="/foto7.jpeg"
             alt="Fondo Boda"
             className="w-full h-full object-cover opacity-30 grayscale sepia-[.3]"
           />
@@ -172,7 +171,7 @@ const VintageWeddingInvite = () => {
           {/* Placeholder para Video (YouTube Embed) */}
           <iframe
             className="w-full h-full object-cover"
-            src={videoBoda}
+            src="/VideoBoda.mp4"
             title="Wedding Video"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture "
