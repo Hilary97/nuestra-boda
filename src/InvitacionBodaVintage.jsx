@@ -276,7 +276,7 @@ const VintageWeddingInvite = () => {
           <button
             onClick={() => {
               const msg = encodeURIComponent(
-                "Confirmo mi asistencia a la boda ❤️"
+                "Confirmo mi asistencia a la boda ♥️"
               );
               window.open(
                 `https://api.whatsapp.com/send?phone=3329666124&text=${msg}`,
