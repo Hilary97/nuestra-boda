@@ -274,12 +274,15 @@ const VintageWeddingInvite = () => {
           </p>
 
           <button
-            onClick={() =>
+            onClick={() => {
+              const msg = encodeURIComponent(
+                "Confirmo mi asistencia a la boda ❤️"
+              );
               window.open(
-                `https://api.whatsapp.com/send?phone=3329666124&text=Confirmo%20mi%20asistencia%20a%20la%20boda%20&#10084;&#65039;`,
+                `https://api.whatsapp.com/send?phone=3329666124&text=${msg}`,
                 "_blank"
-              )
-            }
+              );
+            }}
             className="px-10 py-4 bg-[#f7f5f0] text-[#5e503f] font-playfair font-bold text-lg hover:bg-[#e0dcd0] transition-colors shadow-2xl"
           >
             Confirmar Asistencia
