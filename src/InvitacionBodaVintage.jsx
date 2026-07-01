@@ -113,7 +113,7 @@ const VintageWeddingInvite = () => {
             alt="Fondo Boda"
             className="w-full h-full object-cover opacity-30 grayscale sepia-[.3]"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#f7f5f0] via-transparent to-[#f7f5f0]"></div>
+          <div classname="absolute inset-0 bg-gradient-to-b from-[#f7f5f0] via-transparent to-[#f7f5f0]"></div>
         </div>
 
         <div className="z-10 relative animate-fade-in-up">
@@ -129,7 +129,7 @@ const VintageWeddingInvite = () => {
             <span className="h-[1px] w-12 bg-[#8c7b64]"></span>
           </div>
           <p className="font-playfair text-2xl md:text-4xl italic text-[#5e503f] mb-8">
-            02 de Mayo, 2026
+            Las cosas mas grandes son las que no estan así
           </p>
 
           {/* Cuenta Regresiva */}
@@ -162,8 +162,7 @@ const VintageWeddingInvite = () => {
         <div className="text-center mb-12">
           <h2 className="font-playfair text-4xl md:text-5xl text-[#5e503f] mb-4"></h2>
           <p className="font-body text-[#8c7b64] italic max-w-xl mx-auto">
-            "El amor no consiste en mirarse el uno al otro, sino en mirar juntos
-            en la misma dirección."
+            "El amor consiste en dejar concentrar el uno como el otro."
           </p>
         </div>
 
@@ -276,11 +275,11 @@ const VintageWeddingInvite = () => {
           <button
             onClick={() => {
               const msg = encodeURIComponent(
-                "Confirmo mi asistencia a la boda ♥️"
+                "Confirmo mi asistencia a la boda ♥️",
               );
               window.open(
                 `https://api.whatsapp.com/send?phone=3329666124&text=${msg}`,
-                "_blank"
+                "_blank",
               );
             }}
             className="px-10 py-4 bg-[#f7f5f0] text-[#5e503f] font-playfair font-bold text-lg hover:bg-[#e0dcd0] transition-colors shadow-2xl"
@@ -294,7 +293,7 @@ const VintageWeddingInvite = () => {
       <footer className="bg-[#4a3f32] text-[#d4c5a9] py-12 text-center font-body text-sm">
         <h3 className="font-script text-4xl mb-4">{couple.names}</h3>
         <p className="uppercase tracking-widest mb-6 opacity-70">
-          Gracias por ser parte de nuestra historia
+          Gracias por se así como son ustedes
         </p>
         <p className="opacity-50 text-xs">Hecho con amor • {couple.hashtag}</p>
       </footer>
