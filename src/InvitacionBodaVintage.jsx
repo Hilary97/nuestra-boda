@@ -118,7 +118,7 @@ const VintageWeddingInvite = () => {
 
         <div className="z-10 relative animate-fade-in-up">
           <p className="font-body tracking-[0.3em] text-sm uppercase mb-4 text-[#8c7b64]">
-            Nos casamos
+            Ya nos casamos ahora si
           </p>
           <h1 className="font-script text-7xl md:text-9xl text-[#5e503f] mb-2 leading-tight">
             {couple.names}
